@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StarChart.Data;
 
 namespace StarChart.Controllers
 {
@@ -6,5 +7,6 @@ namespace StarChart.Controllers
     [ApiController]
     public class CelestialObjectController : ControllerBase
     {
+        private ApplicationDbContext _context { get; set; }
     }
 }
