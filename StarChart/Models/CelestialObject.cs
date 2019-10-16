@@ -12,5 +12,7 @@ namespace StarChart.Models
 
         [Required]
         public string Name { get; set; }
+
+        public int? OrbitedObjectId { get; set; }
     }
 }
